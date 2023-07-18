@@ -1,4 +1,4 @@
-# Exotel's Streaming Demo
+#  Streaming Demo
 
 ## Getting Started
 ### Overview
