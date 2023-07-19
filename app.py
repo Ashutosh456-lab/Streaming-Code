@@ -132,7 +132,7 @@ class Stream(object):
 
             yield b"".join(data)
 
-@sockets.route('/media')
+@sockets.route('/media', websocket=True)
 def echo(ws):
     app.logger.info("Connection accepted")
     # A lot of messages will be sent rapidly. We'll stop showing after the first one.
